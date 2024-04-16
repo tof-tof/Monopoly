@@ -1,0 +1,107 @@
+{
+	"0": {
+		"name": "start",
+		"images": ["Links"],
+		"owner": -2
+	},
+	"1": {
+		"name": "The Statue of Liberty",
+		"buyPrice": 10,
+		"Rent": 1,
+		"owner": -1,
+		"images": ["Links"]
+	},
+	"2": {
+		"name": "Golden Gate Bridge",
+		"buyPrice": 20,
+		"Rent": 2,
+		"owner": -1,
+		"images": ["Links"]
+	},
+	"3": {
+		"name": "Tower of Pisa",
+		"buyPrice": 30,
+		"Rent": 3,
+		"owner": -1,
+		"images": ["Links"]
+	},
+	"4": {
+		"name": "Community Chest",
+		"owner": -2,
+		"images": ["Links"]
+	},
+	"5": {
+		"name": "Effiel Tower",
+		"buyPrice": 40,
+		"Rent": 4,
+		"owner": -1,
+		"images": ["Links"]
+	},
+	"6": {
+		"name": "Taj Mahal",
+		"buyPrice": 50,
+		"Rent": 5,
+		"owner": -1,
+		"images": ["Links"]
+
+	},
+	"7": {
+		"name": "Christ the Redeemer",
+		"buyPrice": 60,
+		"Rent": 6,
+		"owner": -1,
+		"images": ["Links"]
+	},
+	"8": {
+		"name": "jail",
+		"owner": -2,
+		"images": ["Links"]
+	},
+	"9": {
+		"name": " Alcatraz",
+		"buyPrice": 70,
+		"Rent": 7,
+		"owner": -1,
+		"images": ["Links"]
+	},
+	"10": {
+		"name": " Sydney Opera House",
+		"buyPrice": 80,
+		"Rent": 8,
+		"owner": -1,
+		"images": ["Links"]
+	},
+	"11": {
+		"name": " Burj Khalifa",
+		"buyPrice": 90,
+		"Rent": 9,
+		"owner": -1,
+		"images": ["Links"]
+	},
+	"12": {
+		"name": "chance",
+		"owner": -2,
+		"images": ["Links"]
+	},
+	"13": {
+		"name": "The Pyramids of Giza",
+		"buyPrice": 100,
+		"Rent": 10,
+		"owner": -1,
+		"images": ["Links"]
+	},
+	"14": {
+		"name": "St. Basil Cathedral",
+		"buyPrice": 110,
+		"Rent": 11,
+		"owner": -1,
+		"images": ["Links"]
+	},
+	"15": {
+		"name": "The Great Wall of China",
+		"buyPrice": 120,
+		"Rent": 12,
+		"owner": -1,
+		"images": ["Links"]
+	}
+}

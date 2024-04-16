@@ -1,0 +1,88 @@
+<!DOCTYPE html><html><head></head><body><img hidden id="battleship" src="battleship.png" alt="Battleship" width="70" height="70"><img hidden id="hat" src="hat.png" alt="hat" width="70" height="70"><img hidden id="chance" src="monoImages\chance2.jpg" alt="chance" width="70" height="70"><img hidden id="liberty" src="monoImages\liberty1.jpg" alt="chance" width="70" height="70"><img hidden id="bridge" src="monoImages\bridge2.jpg" alt="chance" width="70" height="70"><img hidden id="Alcatraz" src="monoImages\Alcatraz2.jpg" alt="chance" width="70" height="70"><img hidden id="EffielTower" src="monoImages\"EffielTower2".jpg" alt="chance" width="70" height="70"><img hidden id="Christ" src="monoImages\Christ1.jpg" alt="chance" width="70" height="70"><img hidden id="OperaHouse" src="monoImages\OperaHouse1.jpg" alt="chance" width="70" height="70"><canvas id="myCanvas" width= "600" height="600" style="border:5px solid #162235;"> Your browser does not support the HTML5 canvas tag.</canvas><script>
+                var c = document.getElementById("myCanvas");
+                var ctx = c.getContext("2d");  ctx.moveTo(120,0);
+                ctx.lineTo(120,600);
+                ctx.moveTo(480,0);
+                ctx.lineTo(480,600);
+                ctx.moveTo(0,120);
+                ctx.lineTo(600,120);
+                ctx.moveTo(0,480);
+                ctx.lineTo(600,480);   ctx.moveTo(0, 240);
+                ctx.lineTo(120,240);
+                ctx.moveTo(480,240);
+                ctx.lineTo(600, 240);
+                
+                ctx.moveTo(0,360);
+                ctx.lineTo(120,360);
+                ctx.moveTo(480,360);
+                ctx.lineTo(600,360);
+                
+                ctx.moveTo(240,0);
+                ctx.lineTo(240,120);
+                ctx.moveTo(240,480);
+                ctx.lineTo(240,600);
+                
+                ctx.moveTo(360,0);
+                ctx.lineTo(360,120);
+                ctx.moveTo(360,480);
+                ctx.lineTo(360,600);
+                
+                ctx.stroke();
+                
+                var go=c.getContext("2d");
+                //go.rotate(-Math.PI*2/(6));
+                go.font="35px Verdana";
+                // Create gradient
+                var gradient=ctx.createLinearGradient(0,0,c.width,0);
+                gradient.addColorStop("0","magenta");
+                gradient.addColorStop("0.5","blue");
+                gradient.addColorStop("1.0","red");
+                // Fill with gradient
+                go.fillStyle=gradient;
+                
+                go.fillText("GO!",510,540);
+                  var col=c.getContext("2d");
+
+                  col.font="19px Verdana";
+                  // Create gradient
+                  var gradient=ctx.createLinearGradient(0,0,c.width,0);
+                  gradient.addColorStop("0","magenta");
+                  gradient.addColorStop("0.5","blue");
+                  gradient.addColorStop("1.0","red");
+                  // Fill with gradient
+                  col.fillStyle=gradient;
+                  col.fillText("collect 1000",487,570);
+                var jail=c.getContext("2d");
+                jail.font="35px Verdana";
+                // Create gradient
+                var gradient2=ctx.createLinearGradient(0,0,c.width,0);
+                gradient2.addColorStop("0","magenta");
+                gradient2.addColorStop("0.5","blue");
+                gradient2.addColorStop("1.0","red");
+                // Fill with gradient
+                jail.fillStyle=gradient2;
+                jail.fillText("JAIL",25,75);
+                window.onload = function() {
+              var b = c.getContext("2d");
+              var img = document.getElementById("battleship");
+              b.drawImage(img,480,410,70,70);
+              var img1 = document.getElementById("hat");
+             // b.rotate(20 * Math.PI / 180);
+              var img2 = document.getElementById("chance");
+              b.drawImage(img1,70,50,50,50);
+              b.drawImage(img2,0,480,120,120);
+              b.drawImage(img2,480,0,120,120);
+              var img3 = document.getElementById("liberty");
+              b.drawImage(img3,360,480,120,120);
+              var img4 = document.getElementById("bridge");
+              b.drawImage(img4,240,480,120,120);
+              var img5 = document.getElementById("Christ");
+              b.drawImage(img5,0,120,120,120);
+              var img7 = document.getElementById("Alcatraz");
+              b.drawImage(img7,120,0,120,120);
+              var img8 = document.getElementById("OperaHouse");
+              b.drawImage(img8,240,0,120,120);
+              var img6 = document.getElementById("EffielTower");
+              b.drawImage(img6,0,240,120,120);
+              }
+              </script><br><h2>Move Number</h2>0<h2>Mover</h2>0</body></html>
